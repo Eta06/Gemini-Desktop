@@ -2,7 +2,7 @@
 
 Bard for Desktop is an Electron-based Bard AI desktop client with multiplatform support.
 
-![MIT License](https://img.shields.io/github/license/yourusername/yourrepository) ![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-blue)
+![MIT License](https://img.shields.io/github/license/Eta06/bardfordesktop) ![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-blue)
 
 ## Table of Contents
 - [Introduction](#introduction)

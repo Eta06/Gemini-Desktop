@@ -25,7 +25,7 @@ git clone https://github.com/Eta06/bardfordesktop.git
 
 2. Install the dependencies:
 ```bash
-cd yourrepository
+cd bardfordesktop
 npm install
 ```
 

@@ -1,7 +1,7 @@
 <h1 align="center">Bard for Desktop</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/yourrepository" alt="MIT License">
+  <img src="https://img.shields.io/github/license/Eta06/bardfordesktop" alt="MIT License">
   <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version 1.0.0">
 </p>
 

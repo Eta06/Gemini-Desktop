@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/license/Eta06/bardfordesktop" alt="MIT License">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/version-1.1.0-blue" alt="Version 1.1.0">
 </p>
 
 <p align="center">

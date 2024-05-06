@@ -1,52 +1,32 @@
 {
-    "name": "bardfordesktop",
-    "productName": "Bard for Desktop",
-    "version": "1.0.0",
-    "description": "Electron-based Bard AI desktop client with multiplatform support.",
+    "name": "geminifordesktop",
+    "productName": "Gemini for Desktop",
+    "version": "1.2.0",
+    "description": "Gemini for Desktop: Electron-based desktop client for Google's advanced AI.",
     "main": "src/index.js",
     "scripts": {
-        "start": "electron-forge start",
-        "package": "electron-forge package",
-        "make": "electron-forge make",
-        "publish": "electron-forge publish",
-        "lint": "echo \"No linting configured\"",
-        "build": "electron-builder"
+      "start": "electron .",
+      "build": "electron-builder --win"
     },
     "keywords": [],
-    "author": {
-        "name": "Emir Tunahan Alim",
-        "email": "emrtnhalim@gmail.com"
-    },
+    "author": "Emir Tunahan Alim <emrtnhalim@gmail.com>",
     "license": "MIT",
-    "dependencies": {
-        "@electron/remote": "^2.0.9",
-        "electron-squirrel-startup": "^1.0.0"
+    "build": {
+      "appId": "com.repu.geminifordesktop",
+      "win": {
+        "target": [
+          "nsis"
+        ],
+        "icon": "./icon.png"
+      }
     },
     "devDependencies": {
-        "@electron-forge/cli": "^6.1.1",
-        "@electron-forge/maker-deb": "^6.1.1",
-        "@electron-forge/maker-rpm": "^6.1.1",
-        "@electron-forge/maker-squirrel": "^6.1.1",
-        "@electron-forge/maker-zip": "^6.1.1",
-        "electron": "24.3.1",
-        "electron-builder": "^24.4.0"
+      "electron": "^30.0.2",
+      "electron-builder": "^24.13.3"
     },
-    "build": {
-        "appId": "com.repu.bardfordesktop",
-        "linux": {
-            "target": [
-                "deb",
-                "rpm",
-                "tar.gz"
-            ],
-            "icon": "./bard.png"
-        },
-        "win": {
-            "target": [
-                "nsis",
-                "zip"
-            ],
-            "icon": "./bard.png"
-        }
-    }
-}
+    "dependencies": {
+      "@electron/remote": "^2.1.2"
+    },
+    "repository": "https://github.com/Eta06/Gemini-Desktop.git",
+    "private": false
+  }

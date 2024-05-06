@@ -46,14 +46,14 @@ const createWindow = () => {
   splash.loadFile('splash.html');
   splash.center();
   win.removeMenu();
-  win.loadURL('https://bard.google.com/');
+  win.loadURL('https://gemini.google.com/');
 
   if (notsplash === true) {
     console.log('Not executed');
   } else {
     win.webContents.on('did-finish-load', function () {
       //If you want to make integration with python script, you can use this code
-      session.defaultSession.cookies.get({ url: 'https://www.bard.google.com', name: '__Secure-1PSID'})
+      session.defaultSession.cookies.get({ url: 'https://www.gemini.google.com', name: '__Secure-1PSID'})
       .then((cookies) => {
         const cookie = cookies[0]; 
         const cookieValue = cookie.value;

@@ -1,32 +1,33 @@
 {
-    "name": "geminifordesktop",
-    "productName": "Gemini for Desktop",
-    "version": "1.2.0",
-    "description": "Gemini for Desktop: Electron-based desktop client for Google's advanced AI.",
-    "main": "src/index.js",
-    "scripts": {
-      "start": "electron .",
-      "build": "electron-builder --win"
-    },
-    "keywords": [],
-    "author": "Emir Tunahan Alim <emrtnhalim@gmail.com>",
-    "license": "MIT",
-    "build": {
-      "appId": "com.repu.geminifordesktop",
-      "win": {
-        "target": [
-          "nsis"
-        ],
-        "icon": "./icon.png"
-      }
-    },
-    "devDependencies": {
-      "electron": "^30.0.2",
-      "electron-builder": "^24.13.3"
-    },
-    "dependencies": {
-      "@electron/remote": "^2.1.2"
-    },
-    "repository": "https://github.com/Eta06/Gemini-Desktop.git",
-    "private": false
-  }
+  "name": "geminifordesktop",
+  "productName": "Gemini for Desktop",
+  "version": "1.2.0",
+  "description": "Gemini for Desktop: Electron-based desktop client for Google's advanced AI.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "keywords": [],
+  "author": "Emir Tunahan Alim <emrtnhalim@gmail.com>",
+  "license": "MIT",
+  "build": {
+    "appId": "com.repu.geminifordesktop",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "./icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.2",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.2",
+    "is-online": "^10.0.0"
+  },
+  "repository": "https://github.com/Eta06/Gemini-Desktop.git",
+  "private": false
+}
